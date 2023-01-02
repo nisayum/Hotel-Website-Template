@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.cont {
+    background-color: rgb(31, 31, 31);
+    height: 260vh;
+}
+
+.navbarr {
+    width: 100%;
+    height: 320px;
+    background: url(../assets/hans-vivek-UiMkBvDQSAA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding-top: 35px;
+}
+
+.logo li {
+    list-style: none;
+    color: #CA965C;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #CA965C;
+}
+
+.icon {
+    font-size: 9px;
+    text-align: center;
+}
+
+li i {
+    padding: 0 5px 5px 0;
+}
+
+#header {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 3px 0;
+    font-family: 'Petrona', serif;
+    letter-spacing: 3px;
+}
+
+#header-2 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 45px;
+}
+
+#lux {
+    color: #D8D8D8;
+}
+
+#header-3 {
+    text-decoration: none;
+    font-size: 24px;
+    color: #D8D8D8;
+    letter-spacing: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 50px 50px 0 50px;
+}
+
+.card-title {
+    font-family: 'Petrona', serif;
+    color: #D8D8D8;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #D8D8D8;
+}
+
+.card-img-top {
+    height: 400px;
+}
+
+.card-body {
+    background-color: #34494e;
+}
+
+.card, .card-img-top{
+    border: 0px !important;
+    border-radius: 0px !important;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.cont {
+    background-color: rgb(31, 31, 31);
+    height: 260vh;
+}
+
+.navbarr {
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%), url(../assets/adrien-olichon-ZgREXhl8ER0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    padding-top: 35px;
+}
+
+.logo li {
+    list-style: none;
+    color: #CA965C;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #CA965C;
+}
+
+.icon {
+    font-size: 9px;
+    text-align: center;
+}
+
+.logo li i {
+    padding: 0 5px 5px 0;
+}
+
+#header {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 3px 0;
+    font-family: 'Petrona', serif;
+    letter-spacing: 3px;
+}
+
+#header-2 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 45px;
+}
+
+#lux {
+    color: #D8D8D8;
+}
+
+#header-3 {
+    text-decoration: none;
+    font-size: 24px;
+    color: #D8D8D8;
+    letter-spacing: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.appetizer {
+    margin-top: 70px;
+    width: 90%;
+}
+
+.col img {
+    width: 32rem;
+}
+
+.col li {
+    list-style: none;
+    font-family: 'Petrona', serif;
+    color: #D8D8D8;
+    font-size: 20px;
+}
+
+.col p {
+    font-size: 19px;
+    text-align: left;
+    color: rgb(211, 127, 43);
+    color: #D8D8D8;
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
